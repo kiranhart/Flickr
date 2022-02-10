@@ -1,0 +1,82 @@
+export const FooterOptions = [
+    'About',
+    'Jobs',
+    'Blog',
+    'Developers',
+    'Guidelines',
+    'Help',
+    'Help Forum',
+    'English'
+];
+
+export const Tags = {
+    'Trending': {
+        'Now': [
+            'clouds',
+            'california',
+            'sea',
+            'portrait',
+            'storm',
+            'bridge',
+            'cityscape'
+        ],
+        'Week': [
+            'owl',
+            'xmas',
+            'child',
+            'countryside',
+            'path'
+        ],
+        'AllTime': [
+            'sea',
+            'art',
+            'sunset',
+            'christmas',
+            'blackandwhite',
+            'light',
+            'park',
+            'car',
+            'orange',
+            'tree',
+            'nature',
+            'food',
+            'cat',
+            'green',
+            'trees',
+            'landscape',
+            'macro',
+            'snow',
+            'water',
+            'beach',
+            'street',
+            'bird',
+            'pink',
+            'flower',
+            'portrait',
+            'white',
+            'dog',
+            'clouds',
+            'old',
+            'flowers',
+            'new',
+            'moon',
+            'city',
+            'bw',
+            'winter',
+            'night',
+            'music',
+            'house',
+            'garden',
+            'summer',
+            'lake',
+            'blue',
+            'river',
+            'bridge',
+            'people',
+            'yellow',
+            'family',
+            'sky',
+            'sun'
+        ]
+    }
+};

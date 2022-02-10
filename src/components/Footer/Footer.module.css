@@ -1,0 +1,40 @@
+.footer {
+    background: black;
+    color: #d3d3d3;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+.footer-main {
+    margin: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hr {
+    opacity: 0.2;
+}
+
+.footer-sub {
+    margin: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.footer-sub > ul {
+    display: flex;
+    gap: 1.5rem;   
+}
+
+.footer-sub > ul > li > svg {
+    font-size: 1.4rem;
+}

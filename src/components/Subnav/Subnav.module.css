@@ -1,0 +1,30 @@
+.subnav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    background-color: #fff;
+    color: #757575;
+    gap: 1.5rem;
+
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0 11rem;
+
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.subnav a {
+    padding: 1rem 0.5rem;
+    cursor: pointer;
+}
+
+.subnav a:hover {
+    border-bottom: 0.2rem solid #0091DC;
+    transition: all 50ms ease-in-out;
+}
+
+.active {
+    border-bottom: 0.2rem solid #0091DC;
+}

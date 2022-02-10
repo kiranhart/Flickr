@@ -1,0 +1,174 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    width: 100%;
+    padding: 1rem 1.5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 55vw 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.navbar.dark {
+    background: #202023;
+    color: white;
+    position: relative;
+    padding: 0.7rem 18rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+}
+
+.logo {
+    width: 1.5rem;
+    gap: 0.8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo ul li {
+    font-weight: 500;
+}
+
+.miniSearch {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 100%;
+}
+
+.search input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2px;
+    background: rgb(216, 213, 213);
+    color: black;
+    outline: none;
+}
+
+.search input::placeholder {
+    color: rgb(146, 143, 143);
+    font-weight: 500;
+}
+
+.search input:focus {
+    background-color: white;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+    justify-content: end;
+
+}
+
+.miniSearch {
+    width: auto;
+    margin-left: auto;
+    display: flex;
+    gap: 1.8rem;
+}
+
+.button-clear {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-white {
+    padding: 0.4rem 0.9rem;
+    background: white;
+    color: black;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.miniSearch .button-white {
+    width: 50%;
+    background: rgb(118, 183, 245);
+    color: white;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.4);
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .navbar.dark {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    
+    .miniSearch {
+        display: none;
+    }
+
+    
+
+    .logo ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.4);
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .navbar.dark {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    
+    .miniSearch {
+        display: none;
+    }
+
+    
+
+    .logo ul {
+        display: none;
+    }
+
+}
